@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "788576adf2a4b1993ba690082f868e61",
+    "content-hash": "25f8ea5c12d18731adaaa99730752a8b",
+    "packages": [
+        {
+            "name": "dnaber/string-theory",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dnaber-de/string-theory.git",
+                "reference": "217b4bd035e7b42285901e0f383ee62e9ac74e27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dnaber-de/string-theory/zipball/217b4bd035e7b42285901e0f383ee62e9ac74e27",
+                "reference": "217b4bd035e7b42285901e0f383ee62e9ac74e27",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StringTheory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Naber",
+                    "email": "kontakt@dnaber.de",
+                    "homepage": "https://dnaber.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Objective multi-byte string handling",
+            "keywords": [
+                "multi-byte",
+                "scanner",
+                "string",
+                "utf8"
+            ],
+            "time": "2016-03-05 15:29:55"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dnaber/string-theory": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

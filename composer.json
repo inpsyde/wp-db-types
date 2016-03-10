@@ -1,0 +1,28 @@
+{
+  "name": "inpsyde/wp-db-types",
+  "description": "Provides general purpose interfaces on working with databases, focused on WordPress development.",
+  "keywords": [ "WordPress", "Type", "Database", "wpdb" ],
+  "license": "MIT",
+  "authors" : [
+    {
+      "name": "Inpsyde GmbH",
+      "role": "Company",
+      "homepage": "http://inpsyde.com/"
+    },
+    {
+      "name": "David Naber",
+      "email": "kontakt@dnaber.de",
+      "homepage": "https://dnaber.de/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "dnaber/string-theory": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "WpDbTypes\\": "src/"
+    }
+  }
+}
