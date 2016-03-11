@@ -16,6 +16,7 @@
       "role": "Developer"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
     "php": ">=5.5.0",
     "dnaber/string-theory": "dev-master"
@@ -24,5 +25,8 @@
     "psr-4": {
       "WpDbTypes\\": "src/"
     }
+  },
+  "require-dev": {
+    "inpsyde/monkery-test-case": "dev-master"
   }
 }
