@@ -3,7 +3,7 @@
 namespace WpDbTypes\Type;
 
 use
-	PHPUnit_Framework_TestCase,
+	MonkeryTestCase,
 	stdClass;
 
 /**
@@ -11,7 +11,7 @@ use
  *
  * @package WpDbTypes\Type
  */
-class GenericResultTest extends PHPUnit_Framework_TestCase {
+class GenericResultTest extends MonkeryTestCase\TestCase {
 
 	/**
 	 * @covers GenericResult::offsetGet

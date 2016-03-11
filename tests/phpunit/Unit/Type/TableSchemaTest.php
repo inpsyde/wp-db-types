@@ -3,14 +3,14 @@
 namespace WpDbTypes\Type;
 
 use
-	PHPUnit_Framework_TestCase;
+	MonkeryTestCase;
 
 /**
  * Class TableSchemaTest
  *
  * @package WpDbTypes\Type
  */
-class TableSchemaTest extends PHPUnit_Framework_TestCase {
+class TableSchemaTest extends MonkeryTestCase\TestCase {
 
 	/**
 	 * Test if the interface is detected by the auto loader config

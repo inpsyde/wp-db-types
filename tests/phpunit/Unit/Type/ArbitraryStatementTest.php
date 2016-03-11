@@ -3,14 +3,14 @@
 namespace WpDbTypes\Type;
 
 use
-	PHPUnit_Framework_TestCase;
+	MonkeryTestCase;
 
 /**
  * Class ArbitraryStatementTest
  *
  * @package WpDbTypes\Type
  */
-class ArbitraryStatementTest extends PHPUnit_Framework_TestCase {
+class ArbitraryStatementTest extends MonkeryTestCase\TestCase {
 
 	/**
 	 * @covers ArbitraryStatement::statement
