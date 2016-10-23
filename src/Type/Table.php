@@ -10,7 +10,7 @@ use
  *
  * @package WpDbTypes\Type
  */
-interface Table extends Type\String {
+interface Table extends Type\StringType {
 
 	/**
 	 * @return string

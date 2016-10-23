@@ -12,7 +12,7 @@ use
  *
  * @package WpDbTypes\Type
  */
-interface Statement extends Type\String {
+interface Statement extends Type\StringType {
 
 	/**
 	 * @return string
