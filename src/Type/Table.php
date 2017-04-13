@@ -2,18 +2,20 @@
 
 namespace WpDbTypes\Type;
 
-use
-	StringTheory\Type;
-
 /**
  * Interface Table
  *
  * @package WpDbTypes\Type
  */
-interface Table extends Type\StringType {
+interface Table {
 
 	/**
 	 * @return string
 	 */
 	public function name();
+
+	/**
+	 * @return string
+	 */
+	public function __toString();
 }

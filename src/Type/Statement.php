@@ -2,9 +2,6 @@
 
 namespace WpDbTypes\Type;
 
-use
-	StringTheory\Type;
-
 /**
  * Interface Statement
  *
@@ -12,10 +9,15 @@ use
  *
  * @package WpDbTypes\Type
  */
-interface Statement extends Type\StringType {
+interface Statement {
 
 	/**
 	 * @return string
 	 */
 	public function statement();
+
+	/**
+	 * @return string
+	 */
+	public function __toString();
 }
