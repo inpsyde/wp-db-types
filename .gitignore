@@ -1,3 +1,4 @@
 /vendor/*
+/tests/bin/*
 phpunit.xml
 composer.lock
