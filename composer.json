@@ -1,12 +1,7 @@
 {
 	"name": "inpsyde/wp-db-types",
-	"description": "Provides general purpose interfaces on working with databases, focused on WordPress development.",
-	"keywords": [
-		"WordPress",
-		"Type",
-		"Database",
-		"wpdb"
-	],
+	"description": "Deprecated package. Replaced by inpsyde/wp-db-tools",
+	"keywords": [],
 	"license": "MIT",
 	"authors": [
 		{
